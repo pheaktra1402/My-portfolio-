@@ -146,8 +146,15 @@ header .follow a:hover {
 .home {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 1.5rem;
+}
+.image{
+  flex:3;
+  display: flex;
+  justify-content: right;
+   
 }
 .home.image {
   flex: 1 1 40 rem;
@@ -550,3 +557,34 @@ header .follow a:hover {
     padding-right: 0;
   }
 }
+/* gmail */
+
+.cont_tact_11{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+   margin: 10px;
+}
+.contact_inputs{
+    padding: 10px 70px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    animation: movelines 8s linear forwards;
+    border: none;
+    padding-left: 25px;
+    font-weight:500 ;
+    color: #8b8b8b;
+    border-radius: 50px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+.cont_tact_11 textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
